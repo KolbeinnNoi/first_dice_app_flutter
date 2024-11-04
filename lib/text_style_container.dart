@@ -1,18 +1,21 @@
-import 'package:flutter/material.dart';
+// Enduðum á því að sameina þetta file yfir í hitt
 
-class TextStyleContainer extends StatelessWidget {
-  const TextStyleContainer( this.text, {super.key});
 
-  final String text;
+// import 'package:flutter/material.dart';
 
-  @override
-  Widget build(context) {
-    return  Text(
-      text,
-      style: TextStyle(
-        color: Colors.white,
-        fontSize: 28,
-      ),
-    );
-  }
-}
+// class TextStyleContainer extends StatelessWidget {
+//   const TextStyleContainer( this.text, {super.key});
+
+//   final String text;
+
+//   @override
+//   Widget build(context) {
+//     return  Text(
+//       text,
+//       style: TextStyle(
+//         color: Colors.white,
+//         fontSize: 28,
+//       ),
+//     );
+//   }
+// }
